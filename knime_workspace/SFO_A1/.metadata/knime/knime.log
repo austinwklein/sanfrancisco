@@ -1,0 +1,145 @@
+2026-03-18 14:51:46,884 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.11.0.v202603030810 (Build March 03, 2026)      #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-03-18 14:51:46,885 : INFO  : main :  : NodeLogger :  :  : # /Users/austinwklein/Repos/dm_sfo/SFO_A1/.metadata/knime/knime.log
+2026-03-18 14:51:46,886 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # logging date=Wed Mar 18 14:51:46 AKDT 2026
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # os.name=Mac OS X
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # os.arch=aarch64
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=10
+2026-03-18 14:51:46,891 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-03-18 14:51:48,895 : INFO  : main :  : NodeLogger :  :  : # host=AustinsMBP.local
+2026-03-18 14:51:48,902 : INFO  : main :  : NodeLogger :  :  : # username=austinwklein
+2026-03-18 14:51:48,902 : INFO  : main :  : NodeLogger :  :  : # max mem=2048MB
+2026-03-18 14:51:48,903 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-03-18 14:51:48,910 : INFO  : main :  : NodeLogger :  :  : # KNID=11-975e5628c34ce046-01-29272923fae67d01
+2026-03-18 14:51:48,910 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-03-18 14:51:19,278 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-03-18 14:51:49,822 : INFO  : main :  : StringHistory :  :  : History file '/Users/austinwklein/Repos/dm_sfo/SFO_A1/.metadata/knime/history_database_drivers.txt' does not exist.
+2026-03-18 14:51:49,822 : INFO  : main :  : StringHistory :  :  : History file '/Users/austinwklein/Repos/dm_sfo/SFO_A1/.metadata/knime/history_database_urls.txt' does not exist.
+2026-03-18 14:51:50,797 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-03-18 14:51:50,828 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/Users/austinwklein/Repos/dm_sfo/SFO_A1/.metadata/knime/history_string2date-formats.txt' does not exist.
+2026-03-18 14:51:51,888 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-03-18 14:51:51,888 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-03-18 14:51:52,227 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-03-18 14:51:52,494 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-03-18 14:51:52,670 : INFO  : main :  : StringHistory :  :  : History file '/Users/austinwklein/Repos/dm_sfo/SFO_A1/.metadata/knime/history_org.knime.kerberos.name.txt' does not exist.
+2026-03-18 14:51:52,990 : INFO  : main :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:51:53,043 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-03-18 14:51:53,102 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file '/Users/austinwklein/Repos/dm_sfo/SFO_A1/.metadata/knime/history_createFileNameHistoryKey.txt' does not exist.
+2026-03-18 14:51:54,023 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-03-18 14:51:54,026 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-03-18 14:51:54,026 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-03-18 14:51:54,028 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-03-18 14:51:54,032 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-03-18 14:51:54,032 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-03-18 14:52:01,334 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to fetch folder contents
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:01,342 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to fetch folder contents
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:01,343 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:04,932 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to fetch folder contents
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:04,939 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to fetch folder contents
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:04,939 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:08,109 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: An error occurred while creating the folder
+ * Failed to determine parent folder.
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:08,109 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error while creating folder 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:15,087 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to fetch folder contents
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:15,093 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c RPC Client:: Error RPC request 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      Error: Failed to fetch folder contents
+ * Expected item 'root' to be a folder, found 'Workflow'. (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:15,095 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/assets/index-qa2z6KdO.js; line: 105)
+2026-03-18 14:52:15,095 : ERROR : main :  : KnimeBrowserView :  :  : Uncaught (in promise) #<Object> (source: https://org.knime.ui.java/index.html#/space-browsing/local/Local-space-id/local/root; line: 0)
+2026-03-18 14:52:22,908 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000000e8014813c0 :  : FileUtil :  :  : Deleting 1 temporary files.
