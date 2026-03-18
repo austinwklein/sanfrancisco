@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="python3_command" type="xstring" value=""/>
-        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010%%00010df = pd.read_csv(%%00010    r'C:\Users\austinwklein\OneDrive - University of Alaska\1_Areas\UAA\_CSCE_A462_Data-Mining\03-17_2359_A1\project\data\SFO_Climate_NOAA.csv',%%00010    dtype=str, low_memory=False%%00010)%%00010%%00010df = df[df['REPORT_TYPE'].str.strip() == 'FM-15']%%00010df['DATE'] = pd.to_datetime(df['DATE'])%%00010df = df[df['DATE'].dt.year == 2023]%%00010df['date_only'] = df['DATE'].dt.date%%00010df['hour'] = df['DATE'].dt.hour%%00010%%00010df['HourlyVisibility'] = pd.to_numeric(df['HourlyVisibility'], errors='coerce')%%00010df['HourlyRelativeHumidity'] = pd.to_numeric(df['HourlyRelativeHumidity'], errors='coerce')%%00010df['HourlyWindSpeed'] = pd.to_numeric(df['HourlyWindSpeed'], errors='coerce')%%00010df['is_fog'] = df['HourlyPresentWeatherType'].str.contains('FG', na=False).astype(int)%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(%%00010    df[['date_only', 'hour', 'HourlyVisibility', %%00010        'HourlyRelativeHumidity', 'HourlyWindSpeed', 'is_fog']]%%00010)"/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010import os%%00010%%00010mac_base_path = r'/Users/austinwklein/Library/CloudStorage/OneDrive-UniversityofAlaska/1_Areas/UAA/_CSCE_A462_Data-Mining/03-17_2359_A1/project/data/'%%00010windows_base_path = r'C:\\Users\austinwklein\OneDrive - University of Alaska\1_Areas\UAA\_CSCE_A462_Data-Mining\03-17_2359_A1\project\data'%%00010%%00010df = pd.read_csv(%%00010    os.path.join(mac_base_path, 'SFO_Climate_NOAA.csv'),%%00010    dtype=str, low_memory=False%%00010)%%00010%%00010df = df[df['REPORT_TYPE'].str.strip() == 'FM-15']%%00010df['DATE'] = pd.to_datetime(df['DATE'])%%00010df = df[df['DATE'].dt.year == 2023]%%00010df['date_only'] = df['DATE'].dt.date%%00010df['hour'] = df['DATE'].dt.hour.astype(float)%%00010%%00010df['HourlyVisibility'] = pd.to_numeric(df['HourlyVisibility'], errors='coerce')%%00010df['HourlyRelativeHumidity'] = pd.to_numeric(df['HourlyRelativeHumidity'], errors='coerce')%%00010df['HourlyWindSpeed'] = pd.to_numeric(df['HourlyWindSpeed'], errors='coerce')%%00010df['is_fog'] = df['HourlyPresentWeatherType'].str.contains('FG', na=False).astype(int)%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(%%00010    df[['date_only', 'hour', 'HourlyVisibility', %%00010        'HourlyRelativeHumidity', 'HourlyWindSpeed', 'is_fog']]%%00010)"/>
     </config>
     <config key="variables">
         <entry key="version" type="xstring" value="V_2019_09_13"/>
@@ -73,6 +73,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="90961a44-cf4b-4380-bf21-37df5f80db2f"/>
+        <entry key="file_store_id" type="xstring" value="2676cbff-4e17-49b8-ab9f-d64f03c1706d"/>
     </config>
 </config>

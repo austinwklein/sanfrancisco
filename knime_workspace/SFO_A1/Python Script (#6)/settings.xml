@@ -7,7 +7,7 @@
     </config>
     <config key="model">
         <entry key="python3_command" type="xstring" value=""/>
-        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010%%00010df = pd.read_csv(%%00010    r'C:\Users\austinwklein\OneDrive - University of Alaska\1_Areas\UAA\_CSCE_A462_Data-Mining\03-17_2359_A1\project\data\Detailed_Statistics_Departures.csv',%%00010    dtype=str, low_memory=False, skiprows=7, on_bad_lines='skip'%%00010)%%00010%%00010df['date_only'] = pd.to_datetime(df['Date (MM/DD/YYYY)'], format='%m/%d/%Y').dt.date%%00010df['hour'] = pd.to_datetime(df['Scheduled departure time'], format='%H:%M').dt.hour%%00010df['delay'] = pd.to_numeric(df['Departure delay (Minutes)'], errors='coerce')%%00010%%00010# Aggregate to date + hour buckets%%00010hourly = df.groupby(['date_only', 'hour']).agg(%%00010    avg_delay=('delay', 'mean'),%%00010    total_flights=('delay', 'count'),%%00010    pct_delayed=('delay', lambda x: (x &gt; 15).sum() / len(x) * 100)%%00010).reset_index()%%00010%%00010print(f&quot;Rows: {len(hourly)}&quot;)%%00010print(hourly.head(5).to_string())%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(hourly)"/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010import os%%00010%%00010mac_base_path = r'/Users/austinwklein/Library/CloudStorage/OneDrive-UniversityofAlaska/1_Areas/UAA/_CSCE_A462_Data-Mining/03-17_2359_A1/project/data/'%%00010windows_base_path = r'C:\\Users\austinwklein\OneDrive - University of Alaska\1_Areas\UAA\_CSCE_A462_Data-Mining\03-17_2359_A1\project\data'%%00010%%00010df = pd.read_csv(%%00010    os.path.join(mac_base_path, 'Detailed_Statistics_Departures.csv'),%%00010    dtype=str, low_memory=False, skiprows=7, on_bad_lines='skip'%%00010)%%00010%%00010df['date_only'] = pd.to_datetime(df['Date (MM/DD/YYYY)'], format='%m/%d/%Y').dt.date%%00010df['hour'] = pd.to_datetime(df['Scheduled departure time'], format='%H:%M').dt.hour%%00010df['delay'] = pd.to_numeric(df['Departure delay (Minutes)'], errors='coerce')%%00010%%00010# Aggregate to date + hour buckets%%00010hourly = df.groupby(['date_only', 'hour']).agg(%%00010    avg_delay=('delay', 'mean'),%%00010    total_flights=('delay', 'count'),%%00010    pct_delayed=('delay', lambda x: (x &gt; 15).sum() / len(x) * 100)%%00010).reset_index()%%00010%%00010print(f&quot;Rows: {len(hourly)}&quot;)%%00010print(hourly.head(5).to_string())%%00010%%00010knio.output_tables[0] = knio.Table.from_pandas(hourly)"/>
     </config>
     <config key="variables">
         <entry key="version" type="xstring" value="V_2019_09_13"/>
@@ -73,6 +73,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="821290b8-dfed-4d1b-9665-d9d88d976245"/>
+        <entry key="file_store_id" type="xstring" value="0f1727bf-44b9-4004-91d5-71bbf08952a0"/>
     </config>
 </config>
