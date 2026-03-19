@@ -2,6 +2,8 @@
 
 **CSCE A462 — Data Mining | Assignment 1 | University of Alaska Anchorage**
 
+###### **Disclaimer: AI was used for assistance in writing this readme file**
+
 ## Aim
 
 San Francisco International Airport (SFO) is one of the busiest airports in the United States and is notorious for weather-related operational disruptions — particularly the marine layer fog known locally as "Karl the Fog." This project asks: **can hourly weather conditions at SFO predict departure delays?**
