@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="12"/>
+    <entry key="ignoredColumns" type="xint" value="7"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="490"/>
+        <entry key="1" type="xint" value="3811"/>
+        <entry key="2" type="xint" value="2546"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="9.160714285714286"/>
+        <entry key="1" type="xdouble" value="73.45714285714286"/>
+        <entry key="2" type="xdouble" value="13.463265306122448"/>
+        <entry key="3" type="xdouble" value="0.0020408163265306124"/>
+        <entry key="4" type="xdouble" value="76.37229990214537"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="9.612896877459985"/>
+        <entry key="1" type="xdouble" value="77.83495145631068"/>
+        <entry key="2" type="xdouble" value="9.337678271291496"/>
+        <entry key="3" type="xdouble" value="0.003411178168459722"/>
+        <entry key="4" type="xdouble" value="3.7191838221776017"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="5"/>
+        <entry key="0" type="xdouble" value="9.986535534652033"/>
+        <entry key="1" type="xdouble" value="56.58729056650545"/>
+        <entry key="2" type="xdouble" value="12.723445362094223"/>
+        <entry key="3" type="xdouble" value="0.0"/>
+        <entry key="4" type="xdouble" value="9.407921481305165"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="12"/>
+        <entry key="0" type="xstring" value="HourlyVisibility"/>
+        <entry key="1" type="xstring" value="HourlyRelativeHumidity"/>
+        <entry key="2" type="xstring" value="HourlyWindSpeed"/>
+        <entry key="3" type="xstring" value="is_fog"/>
+        <entry key="4" type="xstring" value="avg_delay"/>
+        <entry key="5" type="xstring" isnull="true" value=""/>
+        <entry key="6" type="xstring" isnull="true" value=""/>
+        <entry key="7" type="xstring" isnull="true" value=""/>
+        <entry key="8" type="xstring" isnull="true" value=""/>
+        <entry key="9" type="xstring" isnull="true" value=""/>
+        <entry key="10" type="xstring" isnull="true" value=""/>
+        <entry key="11" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

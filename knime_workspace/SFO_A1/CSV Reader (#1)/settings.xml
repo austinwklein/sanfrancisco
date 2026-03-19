@@ -13,7 +13,7 @@
                     <config key="path">
                         <entry key="location_present" type="xboolean" value="true"/>
                         <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                        <entry key="path" type="xstring" value="C:\Users\austinwklein\OneDrive - University of Alaska\1_Areas\UAA\_CSCE_A462_Data-Mining\03-17_2359_A1\project\data\Air_Traffic_Landings_Statistics_20260317.csv"/>
+                        <entry key="path" type="xstring" value="/Users/austinwklein/Repos/dm_sfo/data/Air_Traffic_Landings_Statistics_20260317.csv"/>
                     </config>
                     <entry key="includeSubfolders" type="xboolean" value="false"/>
                     <config key="filters">
@@ -130,14 +130,618 @@
                 </config>
             </config>
         </config>
-        <entry key="sourceId_Internals" type="xstring" value="C:\Users\austinwklein\OneDrive - University of Alaska\1_Areas\UAA\_CSCE_A462_Data-Mining\03-17_2359_A1\project\data\Air_Traffic_Landings_Statistics_20260317.csv"/>
+        <entry key="sourceId_Internals" type="xstring" value="/Users/austinwklein/Repos/dm_sfo/data/Air_Traffic_Landings_Statistics_20260317.csv"/>
         <config key="transformationParameters">
             <config key="specs">
-                <entry key="is_null" type="xboolean" value="true"/>
+                <config key="0">
+                    <config key="fsLocation">
+                        <entry key="location_present" type="xboolean" value="true"/>
+                        <entry key="file_system_type" type="xstring" value="LOCAL"/>
+                        <entry key="path" type="xstring" value="/Users/austinwklein/Repos/dm_sfo/data/Air_Traffic_Landings_Statistics_20260317.csv"/>
+                    </config>
+                    <entry key="sourceIdentifier" type="xstring" value="/Users/austinwklein/Repos/dm_sfo/data/Air_Traffic_Landings_Statistics_20260317.csv"/>
+                    <config key="spec">
+                        <config key="0">
+                            <entry key="name" type="xstring" value="Activity Period"/>
+                            <entry key="type" type="xstring" value="java.lang.Integer"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="1">
+                            <entry key="name" type="xstring" value="Activity Period Start Date"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="2">
+                            <entry key="name" type="xstring" value="Operating Airline"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="3">
+                            <entry key="name" type="xstring" value="Operating Airline IATA Code"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="4">
+                            <entry key="name" type="xstring" value="Published Airline"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="5">
+                            <entry key="name" type="xstring" value="Published Airline IATA Code"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="6">
+                            <entry key="name" type="xstring" value="GEO Summary"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="7">
+                            <entry key="name" type="xstring" value="GEO Region"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="8">
+                            <entry key="name" type="xstring" value="Landing Aircraft Type"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="9">
+                            <entry key="name" type="xstring" value="Aircraft Body Type"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="10">
+                            <entry key="name" type="xstring" value="Aircraft Manufacturer"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="11">
+                            <entry key="name" type="xstring" value="Aircraft Model"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="12">
+                            <entry key="name" type="xstring" value="Aircraft Version"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="13">
+                            <entry key="name" type="xstring" value="Landing Count"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="14">
+                            <entry key="name" type="xstring" value="Total Landed Weight"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="15">
+                            <entry key="name" type="xstring" value="data_as_of"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                        <config key="16">
+                            <entry key="name" type="xstring" value="data_loaded_at"/>
+                            <entry key="type" type="xstring" value="java.lang.String"/>
+                            <entry key="hasType" type="xboolean" value="true"/>
+                        </config>
+                    </config>
+                </config>
             </config>
             <entry key="enforceTypes" type="xboolean" value="true"/>
             <config key="columnTransformation">
                 <config key="0">
+                    <entry key="columnName" type="xstring" value="Activity Period"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                        <entry key="_converter_name" type="xstring" value="Integer"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_converter_dst" type="xstring" value="Number (Integer)"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="Number (Integer)"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Activity Period"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                        <entry key="_converter_name" type="xstring" value="Integer"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_converter_dst" type="xstring" value="Number (Integer)"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="1">
+                    <entry key="columnName" type="xstring" value="Activity Period Start Date"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Activity Period Start Date"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="2">
+                    <entry key="columnName" type="xstring" value="Operating Airline"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Operating Airline"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="3">
+                    <entry key="columnName" type="xstring" value="Operating Airline IATA Code"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Operating Airline IATA Code"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="4">
+                    <entry key="columnName" type="xstring" value="Published Airline"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Published Airline"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="5">
+                    <entry key="columnName" type="xstring" value="Published Airline IATA Code"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Published Airline IATA Code"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="6">
+                    <entry key="columnName" type="xstring" value="GEO Summary"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="GEO Summary"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="7">
+                    <entry key="columnName" type="xstring" value="GEO Region"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="GEO Region"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="8">
+                    <entry key="columnName" type="xstring" value="Landing Aircraft Type"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Landing Aircraft Type"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="9">
+                    <entry key="columnName" type="xstring" value="Aircraft Body Type"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Aircraft Body Type"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="10">
+                    <entry key="columnName" type="xstring" value="Aircraft Manufacturer"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Aircraft Manufacturer"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="11">
+                    <entry key="columnName" type="xstring" value="Aircraft Model"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Aircraft Model"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="12">
+                    <entry key="columnName" type="xstring" value="Aircraft Version"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Aircraft Version"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="13">
+                    <entry key="columnName" type="xstring" value="Landing Count"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Landing Count"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="14">
+                    <entry key="columnName" type="xstring" value="Total Landed Weight"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="Total Landed Weight"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="15">
+                    <entry key="columnName" type="xstring" value="data_as_of"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="data_as_of"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="16">
+                    <entry key="columnName" type="xstring" value="data_loaded_at"/>
+                    <config key="originalProductionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                    <entry key="originalTypeLabel" type="xstring" value="String"/>
+                    <entry key="includeInOutput" type="xboolean" value="true"/>
+                    <entry key="columnRename" type="xstring" value="data_loaded_at"/>
+                    <config key="productionPath">
+                        <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                        <entry key="_converter_name" type="xstring" value="String"/>
+                        <config key="_converter_config"/>
+                        <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter_dst" type="xstring" value="String"/>
+                        <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                        <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                        <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                        <config key="_producer_config"/>
+                    </config>
+                </config>
+                <config key="17">
                     <entry key="columnName" type="xstring" isnull="true" value=""/>
                     <entry key="originalTypeLabel" type="xstring" value="Default columntype"/>
                     <entry key="includeInOutput" type="xboolean" value="true"/>
@@ -164,7 +768,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
     <entry key="node-name" type="xstring" value="CSV Reader"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -181,16 +785,19 @@
         <config key="Data Table"/>
     </config>
     <entry key="name" type="xstring" value="CSV Reader"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 45152, Cols: 17"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="28775154-6ccf-4d69-ba7b-4fc6b2367712"/>
     </config>
 </config>
